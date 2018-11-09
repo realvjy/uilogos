@@ -1,0 +1,57 @@
+.btn{
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 300;
+  padding: 20px 36px;
+  display: inline-block;
+  transition: all ease 0.2s;
+  border-radius: 8px;
+  &.btn__sketch{
+    color: $color_white;
+    background-color: $color_blue;
+    border: 1px solid $color_blue;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 72px;
+    margin-right: 12px;
+    small{
+      display: block;
+      margin-top: 8px;
+      font-size: 16px;
+      font-weight: 300;
+      position: relative;
+      color: #ACC3F7;
+      &:before{
+        content: "";
+        background: url('../img/sketch-logo.png'); /*url of image*/
+        height: 32px;
+        width: 34px;
+        z-index: 10000;
+        left: -48px;
+        top: -20px;
+        position: absolute;
+      }
+    }
+    &:hover{
+      background-color: darken($color_blue, 4%);
+    }
+  }
+  &.btn__list{
+    color: $color_blue;
+    border: 1px solid $color_blue;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 12px;
+    small{
+      display: block;
+      margin-top: 8px;
+      font-size: 16px;
+      font-weight: 300;
+      position: relative;
+    }
+    &:hover{
+      border: 1px solid $color_blue;
+    }
+  }
+}

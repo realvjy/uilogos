@@ -21,7 +21,7 @@
 
 $susy: (
   'columns': susy-repeat(10),
-  'gutters': 0.25,
+  'gutters': 0,
   'spread': 'narrow',
   // 'svg-grid-colors': hsl(180, 50%, 80%),
   'container-spread': 'narrow',
@@ -60,14 +60,135 @@ header, section {
 .hero{
   @extend %container;
   padding: 16px;
+  padding-top: 80px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  text-align: center;
   .hero__logo{
-    width: span(5);
+    width: span(10);
     img{
       display: inline-block;
-      height: 36px;
+      height: 64px;
+    }
+  }
+
+  .hero__details{
+    width: span(10);
+    h1{
+      color: $primary_dark;
+      font-weight: 600;
+      display: block;
+      line-height: normal;
+      padding: 18px 0 8px 0;
+    }
+    .more-info{
+      font-weight: 300;
+      color: $primary_grey;
+      font-size: 18px;
+      max-width: 540px;
+      margin: 0 auto;
+      line-height: 32px;
+    }
+  }
+  .hero__btns{
+    width: span(10);
+    margin: 24px 0;
+    a{
+      text-align: left;
+      display: inline-block;
+    }
+  }
+}
+
+// Hero end
+
+// Log Start
+.logo-wrap{
+  @extend %container;
+  padding: 16px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  text-align: center;
+  .toggle{
+    width: span(10);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-bottom: 1px dotted #EFF2FC;
+    a{
+      text-decoration: none;
+      font-size: 24px;
+      padding: 20px 12px;
+      margin: 0 16px;
+      display: inline-block;
+      color: $primary_grey;
+      font-weight: 300;
+      &.active{
+        color: $color_dark_blue;
+        border-bottom: 2px solid $color_blue;
+      }
+    }
+  }
+  .logo{
+    width: span(2);
+    border-radius: 8px;
+    // border: 1px solid $color_blue; //remove later
+    .img-wrap{
+      padding: 52px;
+      img{
+        display: block;
+        width: 100%;
+      }
+    }
+    &:hover{
+      background: #F8FAFF;
+    }
+  }
+}
+// End Logo section
+
+// Start Footer section
+footer{
+  @extend %container;
+  padding: 16px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  text-align: center;
+  border-top: 1px dotted #EFF2FC;
+  margin-top: 80px;
+  .menu{
+    text-align: left;
+    width: span(5);
+    ul{
+      vertical-align: middle;
+      >li{
+        display: inline-block;
+        a{
+          line-height: 32px;
+          text-decoration: none;
+          color: $primary_grey;
+          display: block;
+          margin-right:18px;
+        }
+      }
+    }
+  }
+  .credit{
+    width: span(5);
+    text-align: right;
+    h4{
+      color: $primary_grey;
+      line-height: 32px;
+      img{
+        width: 32px;
+        vertical-align: middle;
+      }
+      a{
+        color: $color_blue;
+        text-decoration: none;
+      }
     }
   }
 }
