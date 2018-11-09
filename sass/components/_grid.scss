@@ -1,0 +1,73 @@
+/* Makes border-box properties */
+
+/* Global Settings */
+/* --------------- */
+:root {
+  // settings
+  --gutter: 0.5rem;
+  --columns: 2;
+}
+
+
+* {
+  // span/width do not inherit
+  --span: initial;
+
+  // only applied when `span` is defined and valid
+  --width: calc(var(--span) / var(--columns) * 100%);
+  box-sizing: border-box;
+}
+
+
+$susy: (
+  'columns': susy-repeat(10),
+  'gutters': 0.25,
+  'spread': 'narrow',
+  // 'svg-grid-colors': hsl(180, 50%, 80%),
+  'container-spread': 'narrow',
+  'column-width': 600px,
+);
+
+
+// Breakpoints
+$mobile-landscape: 30rem; // 480px
+$tablet: 40rem; // 640px
+$tablet-wide: 48rem; // 768px
+$desktop: 64rem; // 1024px
+$widescreen: 71.25rem; // 1140px
+
+body{
+
+}
+
+
+header, section {
+  @include clearfix;
+}
+
+.main-wrap{
+  max-width: $max_container_width;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 36px;
+}
+
+%container {
+    // background: susy-svg-grid() no-repeat scroll;
+    overflow: hidden;
+}
+
+.hero{
+  @extend %container;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .hero__logo{
+    width: span(5);
+    img{
+      display: inline-block;
+      height: 36px;
+    }
+  }
+}
