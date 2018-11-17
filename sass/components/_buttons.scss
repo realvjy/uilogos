@@ -14,7 +14,6 @@
     font-size: 18px;
     font-weight: 400;
     padding-left: 72px;
-    margin-right: 12px;
     small{
       display: block;
       margin-top: 8px;
@@ -40,9 +39,14 @@
   &.btn__list{
     color: $color_blue;
     border: 1px solid $color_blue;
+    background: $color_white;
+    z-index: 11;
     font-size: 18px;
     font-weight: 400;
-    margin-left: 12px;
+    position: relative;
+    padding-right: 60px;
+    text-align: left;
+    cursor: pointer;
     small{
       display: block;
       margin-top: 8px;
@@ -50,8 +54,19 @@
       font-weight: 300;
       position: relative;
     }
+    .arrow{
+      display: inline-block;
+      position: absolute;
+      right: 24px;
+      top: calc(50% - 10px);
+    }
     &:hover{
       border: 1px solid $color_blue;
+      
+    }
+    &:focus{
+      outline: 0;
+      box-shadow: none!important;
     }
   }
 }
