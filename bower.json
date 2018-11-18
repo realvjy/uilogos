@@ -31,6 +31,7 @@
     "susy": "^3.0.5",
     "sass-mq": "^5.0.0"
   },
+  
   "exportsOverride": {
     "bourbon": {
       "": "app/assets/stylesheets/"
