@@ -553,6 +553,14 @@ footer{
           color: $primary_grey;
           display: block;
           margin-right:18px;
+          &:hover{
+            color: $color_blue;
+          }
+        }
+        &:last-child{
+          a{
+            margin-right: 0;
+          }
         }
       }
     }
@@ -570,6 +578,9 @@ footer{
       a{
         color: $color_blue;
         text-decoration: none;
+        &:hover{
+          color: darken($color_blue, 20%);
+        }
       }
     }
   }
