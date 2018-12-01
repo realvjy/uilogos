@@ -445,6 +445,7 @@ header, section {
 
 // Hero end
 
+
 // Log Start
 .logo-wrap{
   @extend %container;
@@ -529,6 +530,103 @@ header, section {
 
 }
 // End Logo section
+
+// Start patron
+.patron{
+  @extend %container;
+  padding: 16px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 64px;
+  .friend{
+    width: span(10);
+    border-radius: 12px;
+    margin: 0 auto;
+    -webkit-transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    -moz-transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    -ms-transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    -o-transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    &.uxstore{
+      background: #F8FAFF;
+      border: 1px solid transparent;
+      max-width: 800px;
+      .here-you-go{
+        padding: 24px;
+        display: block;
+        display: flex;
+        justify-content: flex-start;
+        text-decoration: none;
+        .img{
+          vertical-align: middle;
+          width: 120px;
+          img{
+            width: 96px;
+            height: 96px;
+          }
+        }
+        .info{
+          vertical-align: middle;
+          width: span(8);
+          padding-top: 6px;
+          h2{
+            font-size: 24px;
+            font-weight: 500;
+            color: $color_dark_blue;
+            line-height: 36px;
+          }
+          p{
+            color: $primary_grey;
+            font-size: 17px;
+            span{
+              color: $color_blue;
+              letter-spacing: 2px;
+              font-weight: 600;
+              display: inline-block;
+              border-bottom: .5px dotted $color_dark_blue;
+            }
+          }
+        }
+      }
+      &:hover{
+        .info{
+          h2{
+            color: lighten($color_dark_blue, 10%);
+          }
+          p{
+            color: darken($primary_grey, 15%);
+          }
+        }
+
+      }
+      &:hover{
+        background: $color_white;
+        -webkit-box-shadow: 0 4px 18px -2px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0 4 px 18px -2px rgba(0,0,0,0.07);
+        box-shadow: 0 4px 18px -2px rgba(0,0,0,0.07);
+      }
+    }
+  }
+  @media (max-width: $desktop){
+    .friend{
+      &.uxstore{
+        .here-you-go{
+          display: block;
+          .img{
+            display: block;
+          }
+          .info{
+            display: block;
+            width: span(10);
+            padding: 0;
+            margin-top: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+// End patron
 
 // Start Footer section
 footer{
