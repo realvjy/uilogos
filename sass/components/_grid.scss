@@ -237,6 +237,21 @@ header, section {
               background-color: darken($color_blue, 4%);
             }
           }
+          .btn__nav__xd_dwn{
+            background: rgb(2,0,36);
+            background: linear-gradient(75deg,rgba(7,21,124,1)  0%, rgba(110,38,140,1) 100%);
+            border: 1px solid transparent;
+            color: $color_white;
+            img{
+              height: 16px;
+              vertical-align: middle;
+              margin-right: 8px;
+            }
+            &:hover{
+              background-color: darken($color_blue, 4%);
+            }
+          }
+
           .btn__nav__lst{
             background-color: $color_white;
             border: 1px solid $color_blue!important;
@@ -271,7 +286,6 @@ header, section {
         }
         .btn__nav__scl{
           display: none;
-
         }
       }
     }
@@ -310,7 +324,7 @@ header, section {
       font-weight: 300;
       color: $primary_grey;
       font-size: 18px;
-      max-width: 540px;
+      max-width: 610px;
       margin: 0 auto;
       line-height: 32px;
     }
@@ -421,6 +435,19 @@ header, section {
             -webkit-transform: scale(-1, -1);
             transform: scale(-1, -1);
           }
+        }
+      }
+    }
+    @media (max-width: 500px){
+      .dwn-btns{
+        width: 100%;
+        margin: 0!important;
+        margin-bottom: 18px!important;
+        a{
+          width: 100%;
+        }
+        button{
+          width: 100%;
         }
       }
     }

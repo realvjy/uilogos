@@ -7,10 +7,39 @@
   display: inline-block;
   transition: all ease 0.2s;
   border-radius: 8px;
+  &.btn__xd{
+    color: $color_white;
+    background: rgb(2,0,36);
+    background: linear-gradient(75deg,rgba(7,21,124,1)  0%, rgba(110,38,140,1) 100%);
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 72px;
+    small{
+      display: block;
+      margin-top: 8px;
+      font-size: 16px;
+      font-weight: 300;
+      position: relative;
+      color: rgba(255,255,255,0.8);
+      &:before{
+        content: "";
+        background: url('../img/xd-logo.png'); /*url of image*/
+        background-repeat: no-repeat;
+        height: 32px;
+        width: 32px;
+        z-index: 10000;
+        left: -48px;
+        top: -20px;
+        position: absolute;
+      }
+    }
+    &:hover{
+      opacity: 0.9;
+    }
+  }
   &.btn__sketch{
     color: $color_white;
     background-color: $color_blue;
-    border: 1px solid $color_blue;
     font-size: 18px;
     font-weight: 400;
     padding-left: 72px;
@@ -68,4 +97,6 @@
       outline: 0;
     }
   }
+
+  
 }
