@@ -11,8 +11,9 @@
     color: $color_white;
     background: rgb(2,0,36);
     background: linear-gradient(75deg,rgba(7,21,124,1)  0%, rgba(110,38,140,1) 100%);
+    border: 2px solid rgba(7,21,124,1);
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     padding-left: 72px;
     small{
       display: block;
@@ -40,8 +41,9 @@
   &.btn__sketch{
     color: $color_white;
     background-color: $color_blue;
+    border: 2px solid $color_blue;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     padding-left: 72px;
     small{
       display: block;
@@ -65,13 +67,43 @@
       background-color: darken($color_blue, 4%);
     }
   }
+  &.btn__figma{
+    color: $color_black;
+    background: lighten($color_black, 95%);
+    border: 2px solid lighten($color_black, 80%);
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 72px;
+    small{
+      display: block;
+      margin-top: 8px;
+      font-size: 16px;
+      font-weight: 300;
+      position: relative;
+      color: lighten($color_black, 20%);
+      &:before{
+        content: "";
+        background: url('../img/figma-logo.png'); /*url of image*/
+        height: 32px;
+        width: 22px;
+        background-repeat: no-repeat;
+        z-index: 10000;
+        left: -48px;
+        top: -20px;
+        position: absolute;
+      }
+    }
+    &:hover{
+      background: lighten($color_black, 95%);
+    }
+  }
   &.btn__list{
     color: $color_blue;
-    border: 1px solid $color_blue;
+    border: 2px solid $color_blue;
     background: $color_white;
     z-index: 11;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     position: relative;
     padding-right: 60px;
     text-align: left;
@@ -98,5 +130,5 @@
     }
   }
 
-  
+
 }

@@ -226,7 +226,7 @@ header, section {
           }
           .btn__nav__dwn{
             background-color: $color_blue;
-            border: 1px solid transparent;
+            border: 2px solid transparent;
             color: $color_white;
             img{
               height: 16px;
@@ -240,7 +240,7 @@ header, section {
           .btn__nav__xd_dwn{
             background: rgb(2,0,36);
             background: linear-gradient(75deg,rgba(7,21,124,1)  0%, rgba(110,38,140,1) 100%);
-            border: 1px solid transparent;
+            border: 2px solid transparent;
             color: $color_white;
             img{
               height: 16px;
@@ -252,9 +252,23 @@ header, section {
             }
           }
 
+          .btn__nav__figma_dwn{
+            background: rgba(240,240,240,1);
+            border: 2px solid #000000;
+            color: #000000;
+            img{
+              height: 16px;
+              vertical-align: middle;
+              margin-right: 8px;
+            }
+            &:hover{
+              background: rgba(240,240,240,1);
+            }
+          }
+
           .btn__nav__lst{
             background-color: $color_white;
-            border: 1px solid $color_blue!important;
+            border: 2px solid $color_blue!important;
             color: $color_blue;
             cursor: pointer;
             img{
