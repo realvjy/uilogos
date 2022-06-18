@@ -986,6 +986,40 @@
         }
       ]
     },
+    "brand": {
+      "color": [
+        {
+          "id": 1,
+          "Name": "Adobe",
+          "URL": "https://uilogos.co/uilogos/brand/color/adobe-full.png"
+        },
+        {
+          "id": 2,
+          "Name": "Adobe",
+          "URL": "https://uilogos.co/uilogos/brand/color/adobe.png"
+        },
+        {
+          "id": 3,
+          "Name": "Airbnb",
+          "URL": "https://uilogos.co/uilogos/brand/color/airbnb.png"
+        },
+        {
+          "id": 4,
+          "Name": "Alphabet",
+          "URL": "https://uilogos.co/uilogos/brand/color/alphabet.png"
+        },
+        {
+          "id": 5,
+          "Name": "AMD",
+          "URL": "https://uilogos.co/uilogos/brand/color/amd.png"
+        },
+        {
+          "id": 6,
+          "Name": "Apple",
+          "URL": "https://uilogos.co/uilogos/brand/color/apple.png"
+        },
+      ]
+    },
     "full-logo": {
       "black":[
         {
