@@ -1212,6 +1212,11 @@
 					"id": 45,
 					"Name": "Zoom",
 					"URL": "https://uilogos.co/uilogos/brand/color/zoom.png"
+				},
+        {
+					"id": 46,
+					"Name": "3dicons",
+					"URL": "https://uilogos.co/uilogos/brand/color/3dicons.png"
 				}
 
 			]
