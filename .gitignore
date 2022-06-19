@@ -1,2 +1,5 @@
 # Ignore macOS related files
 .DS_Store
+.sass-cache/
+sass-cache/
+bower_components/
