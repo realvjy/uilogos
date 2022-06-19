@@ -1,0 +1,128 @@
+#figma-page {
+    background: $figma_page_bg;
+}
+
+
+.f-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.f-nav {
+    display: block;
+
+    .nav-wrap {
+        display: flex;
+        justify-content: space-between;
+        margin: 54px 24px;
+
+        align-items: center;
+        @media (max-width: 48rem){
+           flex-direction: column;
+           margin: 40px 16px;
+        }
+        .f-uilogos {}
+
+        .f-menu {
+            @media (max-width: 48rem){
+                margin-top: 24px;
+            }
+            ul {
+                display: flex;
+
+                >li {
+                    a {
+                        text-decoration: none;
+                        padding: 8px 16px;
+                        color: $primary_dark;
+                        font-size: 18px;
+                        display: block;
+                        line-height: 24px;
+                        border-radius: 21px;
+                        @media (max-width: 48rem){
+                           font-size: 16px;
+                           padding: 6px 12px;
+                        }
+                    }
+
+                    &.f-nav-btn {
+                        margin-left: 24px;
+
+                        a {
+                            border: 1px solid $primary_dark;
+
+                            &:hover {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.f-hero {
+    .f-hero-wrap {
+        display: flex;
+        align-items: center;
+        padding: 24px;
+        @media (max-width: 48rem){
+            flex-direction: column;
+        }
+        .image {
+            img {
+                max-width: 320px;
+                border-radius: 3px;
+                box-shadow: 0 4.1px 0.5px rgba(0, 0, 0, .04), 0 11.3px 7.5px rgba(0, 0, 0, .06), 0 27.1px 25.6px rgba(0, 0, 0, .07), 0 90px 80px rgba(0, 0, 0, .11);
+            }
+        }
+
+        .content {
+            padding: 24px;
+            margin-left: 40px;
+            @media (max-width: 48rem){
+               margin: 0;
+            }
+            p {
+                font-size: 22px;
+                font-weight: 300;
+                margin: 12px 0;
+            }
+
+            .f-plugin-logo {
+                max-width: 360px;
+                @media (max-width: 48rem){
+                    width: 100%;
+                }
+            }
+
+            .f-dwn-btns {
+                a {
+                    align-content: center;
+                    align-items: center;
+                    border-radius: 26px;
+                    display: flex;
+                    margin-bottom: 20px;
+                    padding: 16px;
+                    text-decoration: none;
+                    text-align: center;
+                    span{
+                        width: 100%;
+                    }
+                    img{
+                        position: absolute;
+                        
+                    }
+                    &.btn-fill{
+                        background: $black;
+                        color: $color_white;
+                    }
+                    &.btn-outline{
+                        border: 1px solid $black;
+                        color: $black;
+                    }
+                }
+            }
+        }
+    }
+}
