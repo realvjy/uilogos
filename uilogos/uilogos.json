@@ -1018,203 +1018,243 @@
 					"Name": "Apple",
 					"URL": "https://uilogos.co/uilogos/brand/color/apple.png"
 				},
-				{
+        {
 					"id": 7,
+					"Name": "behance",
+					"URL": "https://uilogos.co/uilogos/brand/color/behance.png"
+				},
+        {
+					"id": 8,
+					"Name": "Clubhouse",
+					"URL": "https://uilogos.co/uilogos/brand/color/clubhouse.png"
+				},
+				{
+					"id": 9,
 					"Name": "Coca Cola",
 					"URL": "https://uilogos.co/uilogos/brand/color/coca-cola.png"
 				},
 				{
-					"id": 8,
+					"id": 10,
 					"Name": "Creative Cloud",
 					"URL": "https://uilogos.co/uilogos/brand/color/creative-cloud.png"
 				},
 				{
-					"id": 9,
+					"id": 11,
 					"Name": "Discord",
 					"URL": "https://uilogos.co/uilogos/brand/color/discord.png"
 				},
+        {
+					"id": 12,
+					"Name": "Dribbble",
+					"URL": "https://uilogos.co/uilogos/brand/color/dribbble.png"
+				},
 				{
-					"id": 10,
+					"id": 13,
 					"Name": "Ebay",
 					"URL": "https://uilogos.co/uilogos/brand/color/ebay.png"
 				},
 				{
-					"id": 11,
+					"id": 14,
 					"Name": "Epic Game",
 					"URL": "https://uilogos.co/uilogos/brand/color/epic-game.png"
 				},
 				{
-					"id": 12,
+					"id": 15,
 					"Name": "Facebook Icon",
 					"URL": "https://uilogos.co/uilogos/brand/color/facebook-icon.png"
 				},
 				{
-					"id": 13,
+					"id": 16,
 					"Name": "Facebook",
 					"URL": "https://uilogos.co/uilogos/brand/color/facebook.png"
 				},
 				{
-					"id": 14,
+					"id": 17,
 					"Name": "Figma",
 					"URL": "https://uilogos.co/uilogos/brand/color/figma.png"
 				},
 				{
-					"id": 15,
+					"id": 18,
 					"Name": "Firefox",
 					"URL": "https://uilogos.co/uilogos/brand/color/firefox.png"
 				},
 				{
-					"id": 16,
+					"id": 19,
 					"Name": "Google G",
 					"URL": "https://uilogos.co/uilogos/brand/color/g.png"
 				},
+        {
+          "id": 20,
+          "Name": "Giphy",
+          "URL": "https://uilogos.co/uilogos/brand/color/giphy.png"
+        },
 				{
-					"id": 17,
+					"id": 21,
 					"Name": "Google cloud",
 					"URL": "https://uilogos.co/uilogos/brand/color/google-cloud.png"
 				},
 				{
-					"id": 18,
+					"id": 22,
 					"Name": "Google",
 					"URL": "https://uilogos.co/uilogos/brand/color/google.png"
 				},
 				{
-					"id": 19,
+					"id": 23,
 					"Name": "Heroku",
 					"URL": "https://uilogos.co/uilogos/brand/color/heroku.png"
 				},
 				{
-					"id": 20,
+					"id": 24,
 					"Name": "Instagram",
 					"URL": "https://uilogos.co/uilogos/brand/color/instagram.png"
 				},
 				{
-					"id": 21,
+					"id": 25,
 					"Name": "Linkedin",
 					"URL": "https://uilogos.co/uilogos/brand/color/linkedin.png"
 				},
+        {
+          "id": 26,
+          "Name": "Medium",
+          "URL": "https://uilogos.co/uilogos/brand/color/medium.png"
+        },
 				{
-					"id": 22,
+					"id": 27,
 					"Name": "Meta",
 					"URL": "https://uilogos.co/uilogos/brand/color/meta.png"
 				},
 				{
-					"id": 23,
+					"id": 28,
 					"Name": "Microsoft",
 					"URL": "https://uilogos.co/uilogos/brand/color/microsoft.png"
 				},
 				{
-					"id": 24,
+					"id": 29,
 					"Name": "Netflix",
 					"URL": "https://uilogos.co/uilogos/brand/color/netflix.png"
 				},
 				{
-					"id": 25,
+					"id": 30,
 					"Name": "Nintendo",
 					"URL": "https://uilogos.co/uilogos/brand/color/nintendo.png"
 				},
 				{
-					"id": 26,
+					"id": 31,
 					"Name": "Nvidia",
 					"URL": "https://uilogos.co/uilogos/brand/color/nvidia.png"
 				},
 				{
-					"id": 27,
+					"id": 32,
 					"Name": "Oculus",
 					"URL": "https://uilogos.co/uilogos/brand/color/oculus.png"
 				},
 				{
-					"id": 28,
+					"id": 33,
 					"Name": "Openai",
 					"URL": "https://uilogos.co/uilogos/brand/color/openai.png"
 				},
 				{
-					"id": 29,
+					"id": 34,
 					"Name": "Opensea",
 					"URL": "https://uilogos.co/uilogos/brand/color/opensea.png"
 				},
 				{
-					"id": 30,
+					"id": 35,
 					"Name": "Paypal",
 					"URL": "https://uilogos.co/uilogos/brand/color/paypal.png"
 				},
 				{
-					"id": 31,
+					"id": 36,
 					"Name": "Pinterest",
 					"URL": "https://uilogos.co/uilogos/brand/color/pinterest.png"
 				},
+        {
+          "id": 37,
+          "Name": "reddit",
+          "URL": "https://uilogos.co/uilogos/brand/color/reddit.png"
+        },
 				{
-					"id": 32,
+					"id": 38,
 					"Name": "Shutter stock",
 					"URL": "https://uilogos.co/uilogos/brand/color/shutter-stock.png"
 				},
 				{
-					"id": 33,
+					"id": 39,
 					"Name": "Shutterfly",
 					"URL": "https://uilogos.co/uilogos/brand/color/shutterfly.png"
 				},
+        {
+          "id": 40,
+          "Name": "Slack",
+          "URL": "https://uilogos.co/uilogos/brand/color/slack.png"
+        },
 				{
-					"id": 34,
+					"id": 41,
 					"Name": "Spotify",
 					"URL": "https://uilogos.co/uilogos/brand/color/spotify.png"
 				},
 				{
-					"id": 35,
+					"id": 42,
 					"Name": "Tencent",
 					"URL": "https://uilogos.co/uilogos/brand/color/tencent.png"
 				},
 				{
-					"id": 36,
+					"id": 43,
 					"Name": "Tiktok",
 					"URL": "https://uilogos.co/uilogos/brand/color/tiktok.png"
 				},
+        {
+          "id": 44,
+          "Name": "Tinder",
+          "URL": "https://uilogos.co/uilogos/brand/color/tinder.png"
+        },
 				{
-					"id": 37,
+					"id": 45,
 					"Name": "Tux",
 					"URL": "https://uilogos.co/uilogos/brand/color/tux.png"
 				},
 				{
-					"id": 38,
+					"id": 46,
 					"Name": "Twitter",
 					"URL": "https://uilogos.co/uilogos/brand/color/twitter.png"
 				},
 				{
-					"id": 39,
+					"id": 47,
 					"Name": "Uber",
 					"URL": "https://uilogos.co/uilogos/brand/color/uber.png"
 				},
 				{
-					"id": 40,
+					"id": 48,
 					"Name": "Ubisoft",
 					"URL": "https://uilogos.co/uilogos/brand/color/ubisoft.png"
 				},
 				{
-					"id": 41,
+					"id": 49,
 					"Name": "Unsplash",
 					"URL": "https://uilogos.co/uilogos/brand/color/unsplash.png"
 				},
 				{
-					"id": 42,
+					"id": 50,
 					"Name": "Whatsapp",
 					"URL": "https://uilogos.co/uilogos/brand/color/whatsapp.png"
 				},
 				{
-					"id": 43,
+					"id": 51,
 					"Name": "Xbox",
 					"URL": "https://uilogos.co/uilogos/brand/color/xbox.png"
 				},
 				{
-					"id": 44,
+					"id": 52,
 					"Name": "Youtube",
 					"URL": "https://uilogos.co/uilogos/brand/color/youtube.png"
 				},
 				{
-					"id": 45,
+					"id": 53,
 					"Name": "Zoom",
 					"URL": "https://uilogos.co/uilogos/brand/color/zoom.png"
 				},
         {
-					"id": 46,
+					"id": 54,
 					"Name": "3dicons",
 					"URL": "https://uilogos.co/uilogos/brand/color/3dicons.png"
 				}
@@ -1359,11 +1399,6 @@
 					"URL": "https://uilogos.co/uilogos/full-logo/color/amara.png"
 				},
 				{
-					"id": 2,
-					"Name": "Asgardia 2",
-					"URL": "https://uilogos.co/uilogos/full-logo/color/asgardia-2.png"
-				},
-				{
 					"id": 3,
 					"Name": "Asgardia",
 					"URL": "https://uilogos.co/uilogos/full-logo/color/asgardia.png"
@@ -1442,11 +1477,6 @@
 					"id": 20,
 					"Name": "Liva",
 					"URL": "https://uilogos.co/uilogos/full-logo/color/liva.png"
-				},
-				{
-					"id": 21,
-					"Name": "Muzica 2",
-					"URL": "https://uilogos.co/uilogos/full-logo/color/muzica-2.png"
 				},
 				{
 					"id": 22,
