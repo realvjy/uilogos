@@ -84,7 +84,7 @@
                margin: 0;
             }
             p {
-                font-size: 22px;
+                font-size: 20px;
                 font-weight: 300;
                 margin: 12px 0;
             }
@@ -123,6 +123,175 @@
                     }
                 }
             }
+        }
+    }
+}
+
+.tutorial{
+    margin-top: 100px;
+    @media (max-width: 48rem){
+        margin-top: 40px;
+    }
+    .f-titles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+        @media (max-width: 48rem){
+            margin-bottom: 30px;
+        }
+        h2{
+            font-size: 50px;
+            font-weight: 300;
+            margin: 12px 0;
+            @media (max-width: 48rem){
+                font-size: 32px;
+            }
+        }
+        h3{
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 24px;
+            color: $color_blue;
+            font-weight: 600;
+            @media (max-width: 48rem){
+                font-size: 20px;
+            }
+        }
+        .demo-wrap{
+            width: 900px;
+            padding: 24px;
+            @media (max-width: 48rem){
+                width: 100%;
+            }
+            video{
+                border-radius: 8px;
+                box-shadow: 0 4.1px 0.5px rgba(0, 0, 0, .04), 0 11.3px 7.5px rgba(0, 0, 0, .06), 0 27.1px 25.6px rgba(0, 0, 0, .07), 0 90px 80px rgba(0, 0, 0, .11);
+                width: 100%;
+                max-width: 900px;
+            }
+        }
+    }
+}
+
+.opensource{
+    margin-top: 48px;
+    .github{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        .f-git{
+            width: 60px;
+        }
+        h2{
+            font-size: 48px;
+            margin-top: 40px;
+        }
+        p{
+            max-width: 700px;
+            font-size: 16px;
+            margin-top: 20px;
+            padding: 12px;
+        }
+        .f-footer-btn{
+            flex-direction: row;
+           a{
+            align-content: center;
+            align-items: center;
+            border-radius: 26px;
+            display: inline-flex;
+            margin-bottom: 20px;
+            line-height: normal;
+            padding: 12px;
+            margin: 24px;
+            color: $black;
+            text-decoration: none;
+            span{
+                padding-left: 30px;
+                padding-right: 16px;
+            }
+            &.btn-fill{
+                background: #000;
+                border: 1px solid #000;
+                color: #fff;
+            }
+            &.btn-outline{
+                border: 1px solid #000;
+            }
+           }
+        }
+    }
+}
+
+
+.fig-plug-announce{
+    align-items: center;
+    background: #ffd644;
+    border-radius: 12px;
+    display: flex;
+    margin: 54px 54px 12px;
+    @media (max-width: 48rem){
+        flex-direction: column;
+        margin: 12px;
+    }
+    .left-box{
+        .fig-p-logo{
+            padding: 32px;
+            @media (max-width: 48rem){
+               padding: 18px;
+               padding-top: 24px;
+            }
+            a{
+                line-height: normal;
+            }
+            img{
+                height: 72px;
+                @media (max-width: 48rem){
+                    height: auto;
+                    width: 100%;
+                 }
+            }
+        }
+    }
+
+    .right-box{
+        border-left: 2px solid #000;
+        padding: 0 24px;
+        margin: 18px 0;
+        text-align: left;
+        @media (max-width: 48rem){
+            border-left: none;
+            border-top: 1px solid $black;
+            padding-top: 24px;
+        }
+        .fig-text-btn{
+            display: flex;
+            @media (max-width: 48rem){
+                flex-direction: column;
+             }
+            a{
+                color: $black;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: -.2px;
+                margin-right: 24px;
+                @media (max-width: 48rem){
+                    margin: 6px 0;
+                 }
+
+            }
+        }
+        p{
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 130%;
+            margin-bottom: 12px;
+            margin-right: 24px;
+            @media (max-width: 48rem){
+                font-size: 14px;
+             }
         }
     }
 }

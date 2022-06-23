@@ -15,7 +15,8 @@
 	},
 	"uilogos": {
 		"flags": {
-			"all-flags": [{
+			"all-flags": [
+				{
 					"id": 1,
 					"Name": "Afghanistan",
 					"URL": "https://uilogos.co/uilogos/flags/afghanistan.png"
@@ -988,7 +989,8 @@
 			]
 		},
 		"brand": {
-			"color": [{
+			"color": [
+				{
 					"id": 1,
 					"Name": "Adobe",
 					"URL": "https://uilogos.co/uilogos/brand/color/adobe-full.png"
@@ -1018,12 +1020,12 @@
 					"Name": "Apple",
 					"URL": "https://uilogos.co/uilogos/brand/color/apple.png"
 				},
-        {
+				{
 					"id": 7,
 					"Name": "behance",
 					"URL": "https://uilogos.co/uilogos/brand/color/behance.png"
 				},
-        {
+				{
 					"id": 8,
 					"Name": "Clubhouse",
 					"URL": "https://uilogos.co/uilogos/brand/color/clubhouse.png"
@@ -1043,7 +1045,7 @@
 					"Name": "Discord",
 					"URL": "https://uilogos.co/uilogos/brand/color/discord.png"
 				},
-        {
+				{
 					"id": 12,
 					"Name": "Dribbble",
 					"URL": "https://uilogos.co/uilogos/brand/color/dribbble.png"
@@ -1083,11 +1085,11 @@
 					"Name": "Google G",
 					"URL": "https://uilogos.co/uilogos/brand/color/g.png"
 				},
-        {
-          "id": 20,
-          "Name": "Giphy",
-          "URL": "https://uilogos.co/uilogos/brand/color/giphy.png"
-        },
+				{
+					"id": 20,
+					"Name": "Giphy",
+					"URL": "https://uilogos.co/uilogos/brand/color/giphy.png"
+				},
 				{
 					"id": 21,
 					"Name": "Google cloud",
@@ -1113,11 +1115,11 @@
 					"Name": "Linkedin",
 					"URL": "https://uilogos.co/uilogos/brand/color/linkedin.png"
 				},
-        {
-          "id": 26,
-          "Name": "Medium",
-          "URL": "https://uilogos.co/uilogos/brand/color/medium.png"
-        },
+				{
+					"id": 26,
+					"Name": "Medium",
+					"URL": "https://uilogos.co/uilogos/brand/color/medium.png"
+				},
 				{
 					"id": 27,
 					"Name": "Meta",
@@ -1168,11 +1170,11 @@
 					"Name": "Pinterest",
 					"URL": "https://uilogos.co/uilogos/brand/color/pinterest.png"
 				},
-        {
-          "id": 37,
-          "Name": "reddit",
-          "URL": "https://uilogos.co/uilogos/brand/color/reddit.png"
-        },
+				{
+					"id": 37,
+					"Name": "reddit",
+					"URL": "https://uilogos.co/uilogos/brand/color/reddit.png"
+				},
 				{
 					"id": 38,
 					"Name": "Shutter stock",
@@ -1183,11 +1185,11 @@
 					"Name": "Shutterfly",
 					"URL": "https://uilogos.co/uilogos/brand/color/shutterfly.png"
 				},
-        {
-          "id": 40,
-          "Name": "Slack",
-          "URL": "https://uilogos.co/uilogos/brand/color/slack.png"
-        },
+				{
+					"id": 40,
+					"Name": "Slack",
+					"URL": "https://uilogos.co/uilogos/brand/color/slack.png"
+				},
 				{
 					"id": 41,
 					"Name": "Spotify",
@@ -1203,11 +1205,11 @@
 					"Name": "Tiktok",
 					"URL": "https://uilogos.co/uilogos/brand/color/tiktok.png"
 				},
-        {
-          "id": 44,
-          "Name": "Tinder",
-          "URL": "https://uilogos.co/uilogos/brand/color/tinder.png"
-        },
+				{
+					"id": 44,
+					"Name": "Tinder",
+					"URL": "https://uilogos.co/uilogos/brand/color/tinder.png"
+				},
 				{
 					"id": 45,
 					"Name": "Tux",
@@ -1253,16 +1255,26 @@
 					"Name": "Zoom",
 					"URL": "https://uilogos.co/uilogos/brand/color/zoom.png"
 				},
-        {
+				{
 					"id": 54,
 					"Name": "3dicons",
 					"URL": "https://uilogos.co/uilogos/brand/color/3dicons.png"
+				},
+				{
+					"id": 55,
+					"Name": "Github Mark",
+					"URL": "https://uilogos.co/uilogos/brand/color/octicons-github.png"
+				},
+				{
+					"id": 56,
+					"Name": "Github",
+					"URL": "https://uilogos.co/uilogos/brand/color/github.png"
 				}
-
 			]
 		},
 		"full-logo": {
-			"black": [{
+			"black": [
+				{
 					"id": 1,
 					"Name": "Amara",
 					"URL": "https://uilogos.co/uilogos/full-logo/black/amara.png"
@@ -1393,7 +1405,8 @@
 					"URL": "https://uilogos.co/uilogos/full-logo/black/ztos.png"
 				}
 			],
-			"color": [{
+			"color": [
+				{
 					"id": 1,
 					"Name": "Amara",
 					"URL": "https://uilogos.co/uilogos/full-logo/color/amara.png"
@@ -1526,7 +1539,8 @@
 			]
 		},
 		"mark": {
-			"black": [{
+			"black": [
+				{
 					"id": 1,
 					"Name": "A Lab",
 					"URL": "https://uilogos.co/uilogos/mark/black/a-lab.png"
@@ -1657,7 +1671,8 @@
 					"URL": "https://uilogos.co/uilogos/mark/black/volicity-9.png"
 				}
 			],
-			"color": [{
+			"color": [
+				{
 					"id": 1,
 					"Name": "A Lab",
 					"URL": "https://uilogos.co/uilogos/mark/color/a-lab.png"
